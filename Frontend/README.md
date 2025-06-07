@@ -1,12 +1,70 @@
-# React + Vite
+# Chat3pt – Onchain Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, visually appealing chatbot built with **React**, **Vite**, and **Tailwind CSS**. Chat3pt leverages Web3 and IPFS for decentralized, immutable knowledge sharing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Beautiful glassmorphism UI with animated gradients and emojis
+- Chat interface with message bubbles and smooth animations
+- Input bar with modern design and keyboard shortcuts
+- Web3 and IPFS integration (coming soon)
+- Fully responsive and mobile-friendly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```sh
+   npm run build
+   ```
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [IPFS](https://ipfs.tech/) (planned)
+- Web3 (planned)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+  components/    # UI components (Header, ChatPanel, InputBar, Footer)
+  App.jsx        # Main app layout
+  index.jsx      # Entry point
+tailwind.config.js
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📜 License
+
+[MIT](LICENSE)
+
+---
+
+> Built with ❤️ using React, Tailwind CSS, and Vite.
