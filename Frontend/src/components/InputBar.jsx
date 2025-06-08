@@ -1,11 +1,20 @@
+import axios from 'axios';
 import { useState } from 'react';
 
 export default function InputBar() {
   const [input, setInput] = useState('');
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!input.trim()) return;
     console.log('Sending:', input);
+    const data = {input: input};
+    let response = await axios.post('http://localhost:3001/api/chat',data, {
+      headers:{
+        'Content-Type': 'application/json',
+      },
+    })
+    console.log(response.data);
+
     setInput('');
   };
 
